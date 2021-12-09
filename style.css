@@ -1,0 +1,154 @@
+.logo{     /* */
+    display: flex;
+    /* padding: -18px; */
+    justify-content: center;
+}
+#bo{
+  background-color: yellow;
+}
+img{
+    width: 100%;
+}
+.divone{ /* */
+    
+    flex-direction: column;
+
+}
+.w{ /* */
+    display: flex;
+    /* margin-left: -56px; */
+    flex-direction: inherit;
+}
+
+ul  { /* */
+  
+  list-style-type: none;
+  display: inline;
+  display: flex;
+    }
+
+a:hover{ /* */
+  color: aqua;
+  text-decoration: underline;
+} 
+li {
+  margin: 10px;
+}
+
+a   {
+  
+  display: flex;
+  display: inline;
+  text-decoration: none;
+  text-align: center;
+
+  color: black;
+    }
+  .collA{
+    color: blueviolet;
+  }
+    mark{
+      color: blue;
+    }  
+
+li  {
+/* margin-left: 25px;
+margin: 10px 20px; */
+    }
+
+.div1 {
+  display: flex;
+  align-items: center;
+      }
+
+img   {
+  width: 100%;
+      }
+.divkid {
+  border: 2px solid black;
+  padding: 00px;
+  margin: 0px;
+  width: 100%;
+        }
+.divpere {
+  width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 00px;
+    margin: 00px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+         }
+/* .divkid{
+  width: 100%;
+} */
+.s {
+    padding-left: 20px;
+     justify-content: center;
+      }
+.rrp {
+color: black;
+opacity: 0.6;
+     }
+.Saving {
+color: rgb(9, 43, 9);
+opacity: 0.8;
+
+        }
+.price  {
+text-decoration: underline;
+        }
+ 
+      
+.basdupage{
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          justify-content: space-between;
+          
+        }
+        .divone img{
+          margin: 0;}
+            .divone ul li{
+              padding: 0;}
+/**********************************************/   
+@media(min-width:800px){
+.logo{
+    padding: 10px;
+    width: 300px;
+    margin: 05px;
+  }
+.divone{
+  display: flex;
+flex-direction: row;
+padding-left: 1px;
+
+  }
+  img{
+    width: 100%;
+  }
+ .s{
+   padding-left: -400px;
+ }
+ li  {
+  margin-left: 25px;
+  margin: 10px 20px;
+      }
+ .divpere {
+  width: 100%;
+  display: flex;
+  padding: 10px;
+  margin: auto;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  width: 100%;
+  flex-direction: row;
+}
+        }
+.basdupage{
+padding-left: opx;
+margin: auto;
+}
+
+}
